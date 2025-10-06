@@ -1,7 +1,7 @@
 <?php namespace Infusionsoft\Api\Rest;
 
-use Infusionsoft\Api\Rest\Traits\CannotDelete;
-use Infusionsoft\Api\Rest\Traits\CannotSync;
+use ATSDK\Api\Rest\Traits\CannotDelete;
+use ATSDK\Api\Rest\Traits\CannotSync;
 
 class SubscriptionService extends RestModel
 {

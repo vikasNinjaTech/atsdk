@@ -2,7 +2,7 @@
 
 namespace Infusionsoft;
 
-use Infusionsoft\Api\Rest\ContactService;
+use ATSDK\Api\Rest\ContactService;
 use Mockery as m;
 use Psr\Log\NullLogger;
 use PHPUnit\Framework\TestCase;

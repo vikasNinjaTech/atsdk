@@ -1,9 +1,10 @@
-<?php namespace Infusionsoft\Api\Rest;
+<?php
+namespace ATSDK\Api\Rest;
 
 use ArrayAccess;
 use Infusionsoft\InfusionsoftException;
 use JsonSerializable;
-use Infusionsoft\Infusionsoft;
+use ATSDK\Infusionsoft;
 use Infusionsoft\InfusionsoftCollection;
 
 /*

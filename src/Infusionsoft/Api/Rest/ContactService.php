@@ -1,20 +1,20 @@
-<?php namespace Infusionsoft\Api\Rest;
+<?php namespace ATSDK\Api\Rest;
 
-use Infusionsoft\Api\Rest\Traits\CannotSync;
-use Infusionsoft\Infusionsoft;
+use ATSDK\Api\Rest\Traits\CannotSync;
+use ATSDk\Infusionsoft;
 use Infusionsoft\InfusionsoftException;
 
 class ContactService extends RestModel
 {
     use CannotSync;
 
-    public $full_url = 'https://api.infusionsoft.com/crm/rest/v1/contacts';
+    public $full_url = 'https://eternal-simple-sheepdog.ngrok-free.app/contacts';
 
     protected $updateVerb = 'patch';
 
     public $return_key = 'contacts';
 
-    public function __construct(Infusionsoft $client)
+    public function __construct(\ATSDk\Infusionsoft $client)
     {
         parent::__construct($client);
     }

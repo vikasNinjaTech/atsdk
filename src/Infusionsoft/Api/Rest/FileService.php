@@ -1,7 +1,7 @@
 <?php namespace Infusionsoft\Api\Rest;
 
-use Infusionsoft\Api\Rest\Traits\CannotModel;
-use Infusionsoft\Api\Rest\Traits\CannotSync;
+use ATSDK\Api\Rest\Traits\CannotModel;
+use ATSDK\Api\Rest\Traits\CannotSync;
 
 class FileService extends RestModel
 {

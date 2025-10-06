@@ -680,7 +680,7 @@ class Infusionsoft
     /**
      * @param string $api
      *
-     * @return \Infusionsoft\Api\ContactService | \Infusionsoft\Api\Rest\ContactService
+     * @return \Infusionsoft\Api\ContactService | \ATSDK\Api\Rest\ContactService
      */
     public function contacts($api = 'rest')
     {
@@ -718,7 +718,7 @@ class Infusionsoft
     /**
      * @param string $api
      *
-     * @return \Infusionsoft\Api\APIEmailService | \Infusionsoft\Api\Rest\EmailService
+     * @return \Infusionsoft\Api\APIEmailService | \ATSDK\Api\Rest\EmailService
      */
     public function emails($api = 'rest')
     {
@@ -732,7 +732,7 @@ class Infusionsoft
     /**
      * @param string $api
      *
-     * @return \Infusionsoft\Api\FileService | \Infusionsoft\Api\Rest\FileService
+     * @return \Infusionsoft\Api\FileService | \ATSDK\Api\Rest\FileService
      */
     public function files($api = 'rest')
     {
@@ -760,7 +760,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\MerchantService
+     * @return \ATSDK\Api\Rest\MerchantService
      */
     public function merchants()
     {
@@ -770,7 +770,7 @@ class Infusionsoft
     /**
      * @param string $api
      *
-     * @return \Infusionsoft\Api\OrderService | \Infusionsoft\Api\Rest\OrderService
+     * @return \Infusionsoft\Api\OrderService | \ATSDK\Api\Rest\OrderService
      */
     public function orders($api = 'rest')
     {
@@ -784,7 +784,7 @@ class Infusionsoft
     /**
      * @param string $api
      *
-     * @return \Infusionsoft\Api\ProductService | \Infusionsoft\Api\Rest\ProductService
+     * @return \Infusionsoft\Api\ProductService | \ATSDK\Api\Rest\ProductService
      */
     public function products($api = 'rest')
     {
@@ -796,7 +796,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\ResthookService
+     * @return \ATSDK\Api\Rest\ResthookService
      */
     public function resthooks()
     {
@@ -836,7 +836,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\TaskService
+     * @return \ATSDK\Api\Rest\TaskService
      */
     public function tasks()
     {
@@ -844,7 +844,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\NoteService
+     * @return \ATSDK\Api\Rest\NoteService
      */
     public function notes()
     {
@@ -852,7 +852,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\AppointmentService
+     * @return \ATSDK\Api\Rest\AppointmentService
      */
     public function appointments()
     {
@@ -860,7 +860,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\CustomFieldService
+     * @return \ATSDK\Api\Rest\CustomFieldService
      */
     public function customfields()
     {
@@ -868,7 +868,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\TagService
+     * @return \ATSDK\Api\Rest\TagService
      */
     public function tags()
     {
@@ -876,7 +876,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\TransactionService
+     * @return \ATSDK\Api\Rest\TransactionService
      */
     public function transactions()
     {
@@ -884,7 +884,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\CampaignService
+     * @return \ATSDK\Api\Rest\CampaignService
      */
     public function campaigns()
     {
@@ -892,7 +892,7 @@ class Infusionsoft
     }
 
 	/**
-	 * @return \Infusionsoft\Api\Rest\CampaignService
+	 * @return \ATSDK\Api\Rest\CampaignService
 	 */
 	public function companies()
 	{
@@ -900,7 +900,7 @@ class Infusionsoft
 	}
 
     /**
-     * @return \Infusionsoft\Api\Rest\UserInfoService
+     * @return \ATSDK\Api\Rest\UserInfoService
      */
     public function userinfo()
     {
@@ -908,7 +908,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\OpportunityService
+     * @return \ATSDK\Api\Rest\OpportunityService
      */
     public function opportunities()
     {
@@ -916,7 +916,7 @@ class Infusionsoft
     }
 
     /**
-     * @return \Infusionsoft\Api\Rest\SubscriptionService
+     * @return \ATSDK\Api\Rest\SubscriptionService
      */
     public function subscriptions()
     {

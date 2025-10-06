@@ -1,6 +1,6 @@
 <?php namespace Infusionsoft\Api\Rest;
 
-use Infusionsoft\Api\Rest\Traits\CannotDelete;
+use ATSDK\Api\Rest\Traits\CannotDelete;
 
 class OrderService extends RestModel {
 

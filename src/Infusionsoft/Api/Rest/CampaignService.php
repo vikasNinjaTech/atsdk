@@ -1,10 +1,10 @@
 <?php namespace Infusionsoft\Api\Rest;
 
-use Infusionsoft\Api\Rest\Traits\CannotCreate;
-use Infusionsoft\Api\Rest\Traits\CannotDelete;
-use Infusionsoft\Api\Rest\Traits\CannotModel;
-use Infusionsoft\Api\Rest\Traits\CannotSave;
-use Infusionsoft\Api\Rest\Traits\CannotSync;
+use ATSDK\Api\Rest\Traits\CannotCreate;
+use ATSDK\Api\Rest\Traits\CannotDelete;
+use ATSDK\Api\Rest\Traits\CannotModel;
+use ATSDK\Api\Rest\Traits\CannotSave;
+use ATSDK\Api\Rest\Traits\CannotSync;
 use Infusionsoft\Infusionsoft;
 use Infusionsoft\InfusionsoftException;
 
