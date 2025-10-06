@@ -33,10 +33,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ATSDK\\FrameworkSupport\\Laravel\\InfusionsoftServiceProvider"
+        "Infusionsoft\\FrameworkSupport\\Laravel\\InfusionsoftServiceProvider"
       ],
       "aliases": {
-        "ATSDK": "ATSDK\\FrameworkSupport\\Laravel\\InfusionsoftFacade"
+        "ATSDK": "Infusionsoft\\FrameworkSupport\\Laravel\\InfusionsoftFacade"
       }
     }
   },
