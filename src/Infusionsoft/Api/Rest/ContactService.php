@@ -1,7 +1,7 @@
 <?php namespace ATSDK\Api\Rest;
 
 use ATSDK\Api\Rest\Traits\CannotSync;
-use ATSDk\Infusionsoft;
+use ATSDK\Infusionsoft;
 use Infusionsoft\InfusionsoftException;
 
 class ContactService extends RestModel
@@ -14,7 +14,7 @@ class ContactService extends RestModel
 
     public $return_key = 'contacts';
 
-    public function __construct(\ATSDk\Infusionsoft $client)
+    public function __construct(\ATSDK\Infusionsoft $client)
     {
         parent::__construct($client);
     }
