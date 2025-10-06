@@ -1,0 +1,48 @@
+{
+  "name": "atsdk/php-sdk",
+  "description": "ATSDK replica of Infusionsoft PHP SDK with custom API domain",
+  "keywords": ["ATSDK", "Infusionsoft", "SDK"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "homepage": "https://your-website.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.4.2",
+    "lstrojny/fxmlrpc": "^0.22.0",
+    "psr/log": "^1.0|^2.0|^3.0",
+    "laminas/laminas-diactoros": "^3.5.0",
+    "php-http/guzzle7-adapter": "^1.0",
+    "php-http/message": "^1.16",
+    "psr/http-factory": "^1.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.2",
+    "phpunit/phpunit": "~9",
+    "doctrine/instantiator": "^1.3.0",
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ATSDK\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ATSDK\\FrameworkSupport\\Laravel\\InfusionsoftServiceProvider"
+      ],
+      "aliases": {
+        "ATSDK": "ATSDK\\FrameworkSupport\\Laravel\\InfusionsoftFacade"
+      }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}

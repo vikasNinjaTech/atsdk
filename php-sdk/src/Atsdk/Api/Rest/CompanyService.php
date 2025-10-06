@@ -1,0 +1,14 @@
+<?php namespace ATSDK\Api\Rest;
+
+use ATSDK\Api\Rest\Traits\CannotDelete;
+use ATSDK\Api\Rest\Traits\CannotFind;
+use ATSDK\Api\Rest\Traits\CannotSync;
+
+class CompanyService extends RestModel
+{
+	use CannotSync, CannotDelete, CannotFind;
+
+	public $full_url = 'https://api.infusionsoft.com/crm/rest/v1/companies';
+	public $return_key = 'companies';
+
+}
