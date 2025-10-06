@@ -1,8 +1,8 @@
 <?php
 
-namespace ATSDk;
+namespace ATSDK;
 
-use Infusionsoft\Config;
+use ATSDK\config\Config;
 use Exception;
 use Infusionsoft\AuthenticationType;
 use Infusionsoft\Http\ArrayLogger;

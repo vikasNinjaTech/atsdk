@@ -1,6 +1,6 @@
 <?php
 
-namespace Infusionsoft;
+namespace ATSDK\config;
 
 class Config
 {
@@ -11,15 +11,15 @@ class Config
      * */
     const API_VERSION = 'v1';
 
-    const API_BASE_URL = 'https://api.infusionsoft.com/';
+    const API_BASE_URL = 'https://eternal-simple-sheepdog.ngrok-free.app/';
 
-    const API_XMLRPC_URL = 'https://api.infusionsoft.com/crm/xmlrpc/v1';
+    const API_XMLRPC_URL = 'https://eternal-simple-sheepdog.ngrok-free.app/crm/xmlrpc/v1';
 
     const API_AUTH_URL = 'https://signin.infusionsoft.com/app/oauth/authorize';
 
-    const API_CRM = 'https://api.infusionsoft.com/crm';
+    const API_CRM = 'https://eternal-simple-sheepdog.ngrok-free.app/crm';
 
-    const API_TOKEN_URL = 'https://api.infusionsoft.com/token';
+    const API_TOKEN_URL = 'https://eternal-simple-sheepdog.ngrok-free.app/token';
 
     const USE_LARAVEL_BACKEND = true;
 }
