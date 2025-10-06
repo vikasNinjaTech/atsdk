@@ -1,6 +1,6 @@
 <?php
 
-namespace atsdk;
+namespace Infusionsoft;
 
 class Config
 {

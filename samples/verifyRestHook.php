@@ -4,7 +4,7 @@ session_start();
 
 require_once '../vendor/autoload.php';
 
-$infusionsoft = new \ATSDK\Infusionsoft(array(
+$infusionsoft = new \Infusionsoft\Infusionsoft(array(
 	'clientId' => '',
 	'clientSecret' => '',
 	'redirectUri' => '',

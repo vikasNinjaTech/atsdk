@@ -47,7 +47,7 @@ if(empty(session_id();)) session_start();
 
 require_once 'vendor/autoload.php';
 
-$infusionsoft = new \ATSDK\Infusionsoft(array(
+$infusionsoft = new \Infusionsoft\Infusionsoft(array(
 	'clientId'     => 'XXXXXXXXXXXXXXXXXXXXXXXX',
 	'clientSecret' => 'XXXXXXXXXX',
 	'redirectUri'  => 'http://example.com/',
@@ -88,7 +88,7 @@ For additional information on how to authorize and use PATs and SAKs please see 
 ```php
 require_once 'vendor/autoload.php';
 
-$infusionsoft = new \ATSDK\Infusionsoft(array(
+$infusionsoft = new \Infusionsoft\Infusionsoft(array(
   'apikey' => $APIKeyRetrievedFromCredentialStorage,
 ));
 

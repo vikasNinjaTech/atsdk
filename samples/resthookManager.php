@@ -5,7 +5,7 @@ session_start();
 
 require_once '../vendor/autoload.php';
 
-$infusionsoft = new \ATSDK\Infusionsoft(array(
+$infusionsoft = new \Infusionsoft\Infusionsoft(array(
 	'clientId' => '',
 	'clientSecret' => '',
 	'redirectUri' => '',
@@ -42,7 +42,7 @@ if ($infusionsoft->getToken()) {
 	try {
 		$resthook = resthookManager($infusionsoft);
 	}
-	catch (\ATSDK\TokenExpiredException $e) {
+	catch (\Infusionsoft\TokenExpiredException $e) {
 		// If the request fails due to an expired access token, we can refresh
 		// the token and then do the request again.
 		$infusionsoft->refreshAccessToken();
